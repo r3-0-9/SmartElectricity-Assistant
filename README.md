@@ -17,6 +17,34 @@ InternLM教程[link]https://github.com/InternLM/Tutorial
 系统要求
 操作系统：Windows/Linux/macOS
 Python版本：Python 3.6及以上
+
 安装步骤
+
 克隆仓库到本地：
 git clone https://github.com/r3-0-9/AI-Smart-Electricity-Management-Assistant.git
+进入项目目录：
+cd AI-Smart-Electricity-Management-Assistant
+
+安装依赖：
+
+pip install -r requirements.txt
+运行程序：
+python main.py
+
+使用
+
+配置
+
+在首次使用前，请确保在config.json文件中正确配置您的设备信息和账号信息。
+
+监测用电
+
+启动程序后，AI智讯日常用电管理助手将自动开始监测用电情况。
+
+查看报告
+
+在APP中，您可以查看每日、每周、每月的用电报告，了解用电情况。
+
+远程控制
+
+通过手机APP，您可以远程控制家中的电器设备，如空调、热水器等。
